@@ -33,6 +33,7 @@ cc_defaults {
         "-Wshadow",
         "-Wshadow-field-in-constructor-modified",
         "-Wshadow-uncaptured-local",
+        "-O3",
     ],
     sanitize: {
         misc_undefined: ["bounds"],
